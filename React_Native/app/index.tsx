@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
+import { Link } from "expo-router";
 
 export default function HomeScreen() {
   return (
@@ -16,6 +17,8 @@ export default function HomeScreen() {
       <View style={styles.card}>
         <Text>Hello, this is a card</Text>
       </View>
+      <Link href="/about">About Page</Link>
+      <Link href="/contact">Contact Page</Link>
     </View>
   );
 }
