@@ -1,15 +1,11 @@
-import GsapFrom from "./LearningComp/GsapFrom";
-import GsapFromTo from "./LearningComp/GsapFromTo";
-import GsapTo from "./LearningComp/gsapTo";
+import { BallBounce } from "./Comp/ball_bounce";
+import { ScrollerTrigger } from "./Comp/ScrollerTrigger";
 
-function App() {
+export default function App() {
   return (
     <>
-      <GsapTo />
-      <GsapFrom />
-      <GsapFromTo />
+      <BallBounce />
+      <ScrollerTrigger />
     </>
   );
 }
-
-export default App;
